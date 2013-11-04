@@ -48,7 +48,7 @@ extern class KeyboardEvent extends Event {
 	 * <p><b>Note: </b>When an input method editor(IME) is running,
 	 * <code>keyCode</code> does not report accurate key codes.</p>
 	 */
-	var keyCode : Int;
+	var keyCode : UInt;
 
 	/**
 	 * Indicates the location of the key on the keyboard. This is useful for
